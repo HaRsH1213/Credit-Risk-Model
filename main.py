@@ -3,7 +3,10 @@ from prediction_helper import predict
 
 # Set the page configuration and title
 st.set_page_config(page_title="Lauki Finance: Credit Risk Modelling", page_icon="📊")
-st.title("Lauki Finance: Credit Risk Modelling")
+st.markdown(
+    "<h1 style='white-space: nowrap;'>Lauki Finance: Credit Risk Modelling</h1>",
+    unsafe_allow_html=True
+)
 
 row1 = st.columns(3)
 row2 = st.columns(3)
