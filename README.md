@@ -105,17 +105,20 @@ Data is merged on customer and loan identifiers to create a comprehensive featur
 ```
 Credit-Risk-Model/
 ├── artifacts/
-│   └── model_data.joblib            # Serialized model and components
+│   └── model_data.joblib                       # Serialized model and components
+├── assets/
+│   ├── dashboard1.png                          # Preview of the Credit Risk Modelling dashboard
+│   └── model_result                            # Preview of Model Predicitons
 ├── dataset/
-│   ├── bureau_data.csv              # Credit bureau information
-│   ├── customers.csv                # Customer demographics
-│   └── loans.csv                    # Loan details and records
+│   ├── bureau_data.csv                         # Credit bureau information
+│   ├── customers.csv                           # Customer demographics
+│   └── loans.csv                               # Loan details and records
 ├── app/
-│   └── credit_risk_model_notebook.ipynb # Model training pipeline
-├── main.py                      # Streamlit web application
-├── prediction_helper.py         # Model prediction utilities
-├── requirements.txt                 # Python dependencies
-└── README.md                        # This file
+│   └── credit_risk_model_notebook.ipynb        # Model training pipeline
+├── main.py                                     # Streamlit web application
+├── prediction_helper.py                        # Model prediction utilities
+├── requirements.txt                            # Python dependencies
+└── README.md                                   # This file
 ```
 
 ## 🔧 Data Cleaning & Preparation
@@ -290,6 +293,11 @@ Location: `artifacts/model_data.joblib`
 - List of columns requiring scaling
 
 ## 📱 Web Application Dashboard
+
+Here is a preview of the Credit Risk Modelling dashboard:
+
+![App Dashboard](assets/dashboard.png)
+![Model_Result](assets/model_result.png)
 
 
 
