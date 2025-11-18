@@ -104,16 +104,16 @@ Data is merged on customer and loan identifiers to create a comprehensive featur
 
 ```
 Credit-Risk-Model/
-├── app/
-│   ├── main.py                      # Streamlit web application
-│   └── prediction_helper.py         # Model prediction utilities
 ├── artifacts/
 │   └── model_data.joblib            # Serialized model and components
 ├── dataset/
 │   ├── bureau_data.csv              # Credit bureau information
 │   ├── customers.csv                # Customer demographics
 │   └── loans.csv                    # Loan details and records
-├── credit_risk_model_notebook.ipynb # Model training pipeline
+├── app/
+│   └── credit_risk_model_notebook.ipynb # Model training pipeline
+├── main.py                      # Streamlit web application
+├── prediction_helper.py         # Model prediction utilities
 ├── requirements.txt                 # Python dependencies
 └── README.md                        # This file
 ```
